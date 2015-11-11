@@ -27,6 +27,7 @@ public class ClutserStormTopology {
 	public static class DataSourceSpout extends BaseRichSpout{
 		private Map conf;
 		private TopologyContext context;
+
 		private SpoutOutputCollector collector;
 		
 		
